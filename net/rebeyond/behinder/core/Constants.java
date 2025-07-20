@@ -9,7 +9,7 @@ public class Constants {
     public static String[] AcceptLanguage = new String[]{"zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6", "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2","zh-CN,zh;q=0.9"};
     public static String TIP_FOR_VERSION = "\u4fdd\u7559\u7248\u6743\u662f\u5bf9\u539f\u521b\u57fa\u672c\u7684\u5c0a\u91cd\uff1a\uff09";
     public static String VERSION = "v4.1\u3010t00ls\u4e13\u7248\u3011";
-    public static String AUTHOR = "By rebeyond;behindererkai by bohemian";
+    public static String AUTHOR = "By rebeyond;erkai by bohemian";
     public static int MENU_CUT = 1;
     public static int MENU_COPY = 16;
     public static int MENU_PASTE = 256;

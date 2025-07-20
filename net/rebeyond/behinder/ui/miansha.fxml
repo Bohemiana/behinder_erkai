@@ -4,18 +4,32 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="301.0" prefWidth="507.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.rebeyond.behinder.ui.controller.MainMianshaController">
-   <TextField fx:id="mima" editable="true" layoutX="74.0" layoutY="55.0" prefWidth="300" promptText="输入密码" />
-   <Button layoutX="409.0" layoutY="55.0" onAction="#onGenerate" text="生成" />
-   <Label layoutX="14.0" layoutY="55.0" prefHeight="23.0" prefWidth="40.0" text="php" />
-   <Label layoutX="14.0" layoutY="95.0" prefHeight="23.0" prefWidth="40.0" text="jsp" />
-   <Label layoutX="14.0" layoutY="151.0" prefHeight="23.0" prefWidth="40.0" text="asp" />
-   <Label layoutX="14.0" layoutY="205.0" prefHeight="23.0" prefWidth="40.0" text="aspx" />
-   <TextField fx:id="mima1" editable="true" layoutX="74.0" layoutY="107.0" prefWidth="300" promptText="输入密码" />
-   <TextField fx:id="mima2" editable="true" layoutX="74.0" layoutY="151.0" prefWidth="300" promptText="输入密码" />
-   <TextField fx:id="mima3" editable="true" layoutX="74.0" layoutY="205.0" prefWidth="300" promptText="输入密码" />
-   <Button layoutX="409.0" layoutY="107.0" onAction="#onGenerate" text="生成" />
-   <Button layoutX="409.0" layoutY="151.0" onAction="#onGenerate" text="生成" />
-   <Button layoutX="409.0" layoutY="205.0" onAction="#onGenerate" text="生成" />
+
+   <Button layoutX="409.0" layoutY="55.0" onAction="#phponGenerate" text="生成" />
+   <Label alignment="CENTER" layoutX="25.0" layoutY="55.0" prefHeight="23.0" prefWidth="40.0" text="PHP">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+   <Label alignment="CENTER" layoutX="25.0" layoutY="107.0" prefHeight="23.0" prefWidth="40.0" text="JSP">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+   <Label alignment="CENTER" layoutX="25.0" layoutY="162.0" prefHeight="23.0" prefWidth="40.0" text="ASP">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+   <Label alignment="CENTER" layoutX="10.0" layoutY="216.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="23.0" prefWidth="70.0" text="CSHARP">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+   <TextField fx:id="mimaphp" editable="true" layoutX="74.0" layoutY="55.0" prefWidth="300" promptText="输入密码" />
+   <TextField fx:id="mimajsp" editable="true" layoutX="74.0" layoutY="107.0" prefWidth="300" promptText="输入密码" />
+   <TextField fx:id="mimaasp" editable="true" layoutX="74.0" layoutY="162.0" prefWidth="300" promptText="输入密码" />
+   <TextField fx:id="mimaaspx" editable="true" layoutX="74.0" layoutY="216.0" prefWidth="300" promptText="输入密码" />
+   <Button layoutX="409.0" layoutY="107.0" onAction="#jsponGenerate" text="生成" />
+   <Button layoutX="409.0" layoutY="162.0" onAction="#asponGenerate" text="生成" />
+   <Button layoutX="409.0" layoutY="216.0" onAction="#aspxonGenerate" text="生成" />
 </AnchorPane>

