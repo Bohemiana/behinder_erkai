@@ -4,6 +4,7 @@
 
 
 [冰蝎二开免杀版]([https://bohemian.top/2025/06/19/%E5%86%B0%E8%9D%8E%E4%BA%8C%E5%BC%80v1-0/%E5%86%B0%E8%9D%8E%E4%BA%8C%E5%BC%80%E4%BB%8E0%E5%88%B01/](https://bohemian.top/2025/07/06/%E5%86%B0%E8%9D%8E%E4%BA%8C%E5%BC%80v1-0/%E5%86%B0%E8%9D%8E%E4%BA%8C%E5%BC%80%E4%BB%8E0%E5%88%B01-2/))
+[https://mp.weixin.qq.com/s/8UOpNd-GQ_Am8fwHxjmD-A](https://mp.weixin.qq.com/s/8UOpNd-GQ_Am8fwHxjmD-A)
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Bohemiana/behinder_erkai&type=Date)](https://www.star-history.com/#Bohemiana/behinder_erkai&Date)
