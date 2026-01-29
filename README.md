@@ -5,6 +5,9 @@
 冰蝎二开免杀版
 [冰蝎二开免杀版](https://bohemian.top/2025/06/19/%E5%86%B0%E8%9D%8E%E4%BA%8C%E5%BC%80v1-0/%E5%86%B0%E8%9D%8E%E4%BA%8C%E5%BC%80%E4%BB%8E0%E5%88%B01/)
 [https://mp.weixin.qq.com/s/8UOpNd-GQ_Am8fwHxjmD-A](https://mp.weixin.qq.com/s/8UOpNd-GQ_Am8fwHxjmD-A)
+
+冰蝎二开-behinder4流量魔改及免杀
+[behinder4流量魔改及免杀](https://bohemian.top/2025/06/19/%E5%86%B0%E8%9D%8E%E4%BA%8C%E5%BC%80v1-0/%E5%86%B0%E8%9D%8E%E4%BA%8C%E5%BC%80%E4%BB%8E0%E5%88%B01/)
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Bohemiana/behinder_erkai&type=Date)](https://www.star-history.com/#Bohemiana/behinder_erkai&Date)
